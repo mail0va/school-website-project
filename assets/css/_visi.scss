@@ -1,0 +1,116 @@
+.visi {
+    background-image: url("../img/header-section/image\ 18.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    .visi__top {
+        color: $white;
+        margin: 80px auto 0;
+        text-align: center;
+        .visi__main__title {
+            font-weight: 600;
+            font-size: 30px;
+        }
+
+    }
+
+    .visi__all {
+        background-color: $blue;
+        padding: 30px 0;
+
+        justify-content: center;
+        .visi__box {
+            height: 270px;
+            background-color: $white;
+            border-radius: 10px;
+            margin: 20px 50px;
+        
+            padding: 50px 0;
+            .visi__text {
+                padding: 1px 0;
+
+                background-color: $blue;
+                .visi__title {
+                    color: $white;
+                    font-size: 20px;
+                    text-align: center;
+                }
+            }
+            .visi__content {
+                margin-top: 10px;
+                .visi__desc {
+                    line-height: 28px;
+                    padding-left: 1rem;
+                }
+
+                ul {
+                    // margin: 0;
+                    // padding: 0;
+                    li {
+                        line-height: 28px;
+                        // width: 75%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.tujuan {
+    margin: 100px 0;
+    // display: flex;
+    // justify-content: center;
+    .tujuan__content {
+        border-radius: 5px;
+        border: 1px solid $gray;
+        .tujuan__name {
+            background-color: $blue;
+            text-align: center;
+            border-radius: 5px;
+            padding: 1px 0;
+            .tujuan__p1 {
+                font-weight: 600;
+                font-size: 24px;
+                color: $white;
+            }
+        }
+        .tujuan__descs {
+            margin: 30px auto !important;
+            text-align: start;
+            font-size: 17px;
+            p {
+                width: 66%;
+                margin-inline: auto;
+                
+            }
+        }
+    }
+}
+
+
+.strategi {
+    margin: 100px 0;
+    .strategi__content {
+        border-radius: 5px;
+        border: 1px solid $gray;
+        .strategi__name {
+            background-color: $blue;
+            text-align: center;
+            border-radius: 5px;
+            padding: 1px 0;
+            .strategi__p1 {
+                font-weight: 600;
+                font-size: 24px;
+                color: $white;
+            }
+        }
+        .strategi__descs {
+            margin: 30px auto;
+            text-align: center;
+            line-height: 30px;
+            width: 65%;
+            font-size: 17px;
+        }
+    }
+}

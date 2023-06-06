@@ -1,0 +1,63 @@
+.sejarah {
+    background-image: url("../img/header-section/image\ 18.png");
+    height: 45vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .sejarah__text {
+        color: $white;
+        margin: 130px auto 0;
+        text-align: center;
+        .sejarah__title {
+            font-weight: 600;
+            font-size: 30px;
+        }
+        .sejarah__desc {
+            margin-top: 30px;
+        }
+    }
+}
+
+.sejarah__center{
+    margin: 60px 0  ;
+    .sejarah__top__title{
+        .sejarah__top__p{
+            font-weight: 700;
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+    }
+
+    .sejarah__descs{
+        .sejarah__first__p{
+            text-align:justify;
+            margin-bottom: 25px;
+
+        }
+        .sejarah__second__p{
+            text-align:justify;
+            margin-bottom: 25px;
+
+        }
+        .sejarah__third__p{
+            text-align:justify;
+            margin-bottom: 25px;
+
+        }
+        .sejarah__fourth__p{
+            text-align:justify;
+            margin-bottom: 25px;
+
+        }
+        .sejarah__fifth__p{
+            text-align:justify;
+            margin-bottom: 25px;
+
+        }
+    }
+}
+
+
+
+

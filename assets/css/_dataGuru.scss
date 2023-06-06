@@ -1,0 +1,87 @@
+.dataGuru{
+    background-image: url("../img/header-section/image\ 18.png");
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .dataGuru__text{
+        color: $white;
+        margin: 130px auto 0 auto;
+        text-align: center;
+        .dataGuru__title{
+            font-weight: 600;
+            font-size: 30px;
+        }
+        .dataGuru__desc{
+            margin-top: 20px;
+        }
+    }
+}
+
+
+
+.dataGuru__cards{
+    .dataGuru__cards__top{
+        margin-top: 60px;
+        .dataGuru__cards__search{
+            display: flex;
+            justify-content: end;
+            // margin-right: 30px;
+            position: relative;
+            i{
+                color: $gray;
+                position: absolute;
+                top: 14px;
+                right: 22%;
+            }
+            input{
+                // background-color: rgb(159, 213, 139);
+                padding: 10px 100px 10px 40px;
+                background-color: $input-bgc;
+                box-sizing: border-box;
+                border: none;
+                outline: none;
+                border-radius: 5px;
+            }
+        }
+    }
+    .dataGuru__all{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 60px 0px;
+        .dataGuru__box{
+            margin: 30px;
+            text-align: center;
+            box-shadow:1px 1px 10px 5px rgb(216, 216, 216);
+            .dataGuru__image{
+                padding: 30px 0;
+                // img{
+    
+                // }
+            }
+            .dataGuru__content{
+                margin-left: 20px;
+                // text-align: center;
+                .dataGuru__first{
+                    display: flex;
+                    .dataGuru__nama{
+                        font-weight: 600;
+                    }
+                    .dataGuru__nip{
+                        font-weight: 600;
+                    }
+                    .dataGuru__pelajaran{
+                        font-weight: 600;
+                    }
+                    .dataGuru__dotes{
+                        margin: 0 10px;
+                        font-weight: 600;
+                    }
+                    .dataGuru__descs{
+    
+                    }
+                }
+            }
+        }
+    }
+}

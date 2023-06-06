@@ -1,0 +1,87 @@
+.exstra {
+    background-image: url("../img/header-section/image\ 18.png");
+    height: 45vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .exstra__text {
+        color: $white;
+        margin: 130px auto 0;
+        text-align: center;
+        .exstra__title {
+            font-weight: 600;
+            font-size: 30px;
+        }
+        .exstra__desc {
+            margin-top: 30px;
+        }
+    }
+}
+
+
+.exstra__all{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px 0px;
+    .exstra__box{
+        border-radius: 5px;
+        margin-bottom: 30px;
+        box-shadow:1px 1px 10px 5px rgb(216, 216, 216);
+        .exstra__image{
+            position: relative;
+
+            .extra__image__counter{
+                position: absolute;
+                left: 20px;
+                top: 20px;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: rgba(0, 0, 0, 0.5);
+                .extra__image__count{
+                    color: $white;
+                    margin: 0;
+                }
+            }
+            .extra__image__content{
+                position: absolute;
+                left: 20px;
+                bottom: 5px;
+                .extra__image__text{
+                    color: $white;
+                    font-size: 25px;
+                    font-weight: 600;
+                }
+            }
+            img{
+                width: 100%;
+            }
+        }
+        .exstra__content{
+            // border-radius: 5px;
+            margin-left: 20px;
+            .exstra__first{
+                    display: flex;
+                    .exstra__pembimbing{
+                        font-weight: 600;
+                    }
+                    .exstra__nip{
+                        font-weight: 600;
+                    }
+                    .exstra__pelajaran{
+                        font-weight: 600;
+                    }
+                    .exstra__dotes{
+                        margin: 0 10px;
+                        font-weight: 600;
+                    }
+                    .exstra__descs{
+    
+                    }
+            }
+        }
+    }
+}

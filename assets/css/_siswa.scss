@@ -1,0 +1,97 @@
+.pemberitahuan{
+    background-image: url("../img/header-section/image\ 18.png");
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    .pemberitahuan__content{   
+        color: $white;
+        margin: 130px auto 0 auto;
+        text-align: center;
+        .pemberitahuan__title{
+            font-weight: 600;
+            font-size: 28px;
+        }
+        .pemberitahuan__desc{
+            width: 45%;
+            line-height: 30px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+}
+
+
+.agenda{
+    margin: 60px 0;
+    .agenda__top{
+        text-align: center;
+        margin-bottom: 30px;
+        .agenda__main__title{
+            font-size: 35px;
+            font-weight: 600;
+        }
+    }
+    
+    .agenda__all{
+        .agenda__box{
+            border: 4px solid $blue;
+            border-radius: 10px;
+            text-align: center;
+            padding:50px 0;
+            .agenda__image{
+                margin-bottom: 30px;
+                img{
+                    width: 12%;
+                }
+            }
+            .agenda__content{
+                // h5{
+
+                // }
+                .agenda__time{
+                    margin: 6px 0;
+                }
+                // .agenda__date{
+                // }
+            }
+        }
+    }
+
+}
+
+
+.assalamualikum{
+    background-color: $blue;
+    color: $white;
+    padding: 80px 0;
+    margin: 100px 0;
+        display: flex;
+        justify-content: center;
+    .assalamualikum__content{
+        .assalamualikum__title{
+            margin-bottom: 30px;
+        }
+        .assalamualikum__desc{
+            line-height: 35px;
+        }
+        .assalamualikum__button{
+            margin-top: 40px;
+            .assalamualikum__btn{
+                border: 1px solid $white;
+                border-radius: 5px;
+                padding: 14px 25px;
+                text-decoration: none;
+                color: $white;
+            }
+        }
+    }
+    .assalamualikum__image{
+        img{
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+    }
+}

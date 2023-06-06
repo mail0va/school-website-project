@@ -1,0 +1,23 @@
+.galerySanlat{
+    .galerySanlat__top{
+        margin-top: 80px;
+        margin-bottom: 50px;
+        .galerySanlat__main__title{
+            text-align: center;
+            font-size: 30px;
+            font-weight: 600;
+        }
+    }
+    .galeries{
+        display: flex;
+        flex-wrap: wrap;
+        .galeries__box{
+            margin-bottom: 20px;
+            .galeries__image{
+                img{
+                    width: 95%;
+                }
+            }
+        }
+    }
+}

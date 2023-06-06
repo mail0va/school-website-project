@@ -1,0 +1,70 @@
+.jadwal2 {
+    background-image: url("../img/header-section/image\ 18.png");
+    height: 45vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .jadwal2__text {
+        color: $white;
+        margin: 130px auto 0;
+        text-align: center;
+        .jadwal2__title {
+            font-weight: 600;
+            font-size: 30px;
+        }
+        .jadwal2__desc {
+            margin-top: 30px;
+        }
+    }
+}
+
+.jadwal2__center {
+    margin: 40px 0;
+    .jadwal2__top {
+        margin: 50px 0;
+        display: flex;
+        justify-content: center;
+        .jadwal2__box {
+            text-align: center;
+            width: 25%;
+            .jadwal2__select__one__h5 {
+                text-align: center;
+            }
+            .jadwal2__select__one {
+                outline: none;
+                width: 250px;
+                height: 40px;
+                border: 1px solid #999;
+                font-size: 17px;
+                border-radius: 5px;
+            }
+
+            .jadwal2__select__second__h5 {
+                text-align: center;
+            }
+            .jadwal2__select__second {
+                outline: none;
+                width: 250px;
+                height: 40px;
+                border: 1px solid #999;
+                font-size: 17px;
+                border-radius: 5px;
+
+            }
+        }
+
+    }
+
+    .jadwal22__bottom {
+        margin: 50px 0;
+        table {
+            tbody {
+                tr {
+                    th {
+                        // text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,72 @@
+.fasilitas {
+    background-image: url("../img/header-section/image\ 18.png");
+    height: 45vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .fasilitas__text {
+        color: $white;
+        margin: 130px auto 0;
+        text-align: center;
+        .fasilitas__title {
+            font-weight: 600;
+            font-size: 30px;
+        }
+        .fasilitas__desc {
+            margin-top: 30px;
+        }
+    }
+}
+
+
+.fasilitas__all{
+    margin-top: 80px;
+    .fasilitas__box{
+        margin-bottom: 30px;    
+        .fasilitas__image{
+            position: relative;
+            img{
+                width: 100%;
+            }
+            .fasilitas__image__content{
+                position: absolute;
+                height: 50px;
+                bottom: 0;
+                background: rgba(1, 147, 220, 0.8);
+                border-radius: 5px;
+                width: 100%;
+                display: grid;
+                place-items: center;
+                .fasilitias__image__title{
+                    color: $white;
+                    text-align: center;
+                    font-weight: 600;
+                    font-size: 18px;
+                    margin: 0;
+                }
+                
+            }
+        }
+
+        .fasilitas__content{
+            margin-top: 10px;
+            .fasilitas__desc{
+                color: $desc-gray;
+                font-size: 17px;
+                width: 95%;
+            }
+        }
+    }
+
+    .fasilitas__button{
+        margin: 40px 0;
+        text-align: center;
+        .fasilitas__btn{
+            text-decoration: none;
+            background-color: $blue;
+            color: $white;
+            padding: 12px 25px;
+            border-radius: 5px;
+        }
+    }
+}

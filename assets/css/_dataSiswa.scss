@@ -1,0 +1,33 @@
+.dataSiswa {
+    background-image: url("../img/header-section/image\ 18.png");
+    height: 45vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .dataSiswa__text {
+        color: $white;
+        margin: 130px auto 0;
+        text-align: center;
+        .dataSiswa__title {
+            font-weight: 600;
+            font-size: 30px;
+        }
+        .dataSiswa__desc {
+            margin-top: 30px;
+        }
+    }
+}
+
+.dataSiswaTable {
+
+    margin: 50px 0;
+    table {
+        tbody {
+            tr {
+                th {
+                    // text-align: cent `er;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,336 @@
+
+.motto {
+    background-image: url("../img/header-section/image\ 18.png");
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .motto__content {
+        margin: 150px 0 0;
+        .motto__title {
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 15px;
+            color: $gray;
+        }
+        .motto__desc {
+            font-size: 20px;
+            font-weight: 600;
+            width: 40%;
+            margin: 20px 0 50px;
+            color: $white;
+        }
+        .motto__btn {
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: $blue;
+            color: $white;
+        }
+    }
+}
+
+.video__section {
+    margin: 60px 0;
+    display: flex;
+    justify-content: space-around;
+    .video {
+        position: relative;
+        .video__icon {
+            position: absolute;
+            top: 48%;
+            left: 39%;
+            a {
+                i {
+                    font-size: 35px;
+                    color: $white;
+                    // padding: 20px;
+                    // background-color: $white;
+                    // opacity: 0.5;
+                }
+            }
+        }
+
+        img {
+            width: 80%;
+            border-radius: 6px;
+        }
+        .dotes {
+            position: relative;
+            .dot__1 {
+                position: absolute;
+                background-color: $blue;
+                border-radius: 50%;
+                width: 15px;
+                height: 15px;
+                left: -5%;
+                top: -105px;
+            }
+            .dot__2 {
+                position: absolute;
+                background-color: $blue;
+                border-radius: 50%;
+                width: 15px;
+                height: 15px;
+                left: -5%;
+                top: -60px;
+            }
+            .dot__3 {
+                position: absolute;
+                background-color: $blue;
+                border-radius: 50%;
+                width: 15px;
+                height: 15px;
+                left: -5%;
+                top: -15px;
+            }
+            .dot__4 {
+                position: absolute;
+                background-color: $blue;
+                border-radius: 50%;
+                width: 15px;
+                height: 15px;
+                left: -5%;
+                top: 25px;
+            }
+            .dot__5 {
+                position: absolute;
+                background-color: $blue;
+                border-radius: 50%;
+                width: 15px;
+                height: 15px;
+                top: 25px;
+                left: 3px;
+            }
+            .dot__6 {
+                position: absolute;
+                background-color: $blue;
+                border-radius: 50%;
+                width: 15px;
+                height: 15px;
+                left: 40px;
+                top: 25px;
+            }
+            .dot__7 {
+                position: absolute;
+                background-color: $blue;
+                border-radius: 50%;
+                width: 15px;
+                height: 15px;
+                left: 70px;
+                top: 25px;
+            }
+            .dot__8 {
+                position: absolute;
+                background-color: $blue;
+                border-radius: 50%;
+                width: 15px;
+                height: 15px;
+                left: 100px;
+                top: 25px;
+            }
+        }
+    }
+
+    .video__content {
+        .video__title {
+            font-size: 40px;
+            font-weight: 600;
+            width: 80%;
+            color: $black;
+        }
+        .video__desc {
+            width: 95%;
+            margin-bottom: 40px;
+            color: $gray;
+        }
+        .video__btn {
+            text-decoration: none;
+            padding: 10px 25px;
+            border-radius: 5px;
+            background-color: $blue;
+            color: $white;
+        }
+    }
+}
+
+.profil {
+    margin: 80px 0;
+    // position: relative;
+    // .vertical__line{
+    //     position: absolute;
+    //     height: 412px;
+    //     left: 635px;
+    //     top: 35px;
+    //     color: $gray;
+    // }
+
+    .profil__content {
+        .profil__title {
+            font-weight: 600;
+            font-size: 30px;
+        }
+        .profil__desc {
+            width: 60%;
+            line-height: 33px;
+            color: $gray;
+            margin-bottom: 40px;
+        }
+        .profil__btn {
+            text-decoration: none;
+            padding: 10px 25px;
+            border-radius: 5px;
+            background-color: $blue;
+            color: $white;
+        }
+    }
+
+    .service__all {
+        display: flex;
+        flex-wrap: wrap;
+        .service__box {
+            width: 85%;
+            box-shadow: 0 10px 20px 7px rgba(220, 220, 221, 0.3);
+            margin: 30px 20px;
+            padding: 5px;
+            // .service__image {
+            //     img {}
+            // }
+            .service__title {
+                font-weight: 600;
+                font-size: 20px;
+                margin-top: 15px;
+            }
+            .service__desc {
+                // width: 85%;
+                color: $gray;
+            }
+        }
+    }
+}
+
+.berita {
+    .berita__top {
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+        .berita__main__title {
+            font-size: 30px;
+            font-weight: 600;
+            margin-right: 100px;
+        }
+        .berita__search {
+            i {
+                padding-top: 17px;
+                position: absolute;
+                left: 32%;
+                color: $gray;
+            }
+            input {
+                background-color: $input-bgc;
+                // border-color: $input-bgc;
+                outline: none;
+                padding: 11px 160px 11px 45px;
+                border-radius: 4px;
+            }
+        }
+    }
+
+    .berita__bottom {
+        display: flex;
+        .berita__box {
+            display: flex;
+            margin-bottom: 20px;
+            .berita__image {
+                img {
+                    border-radius: 4px;
+                }
+            }
+            .berita__content {
+                margin-left: 20px;
+                .berita__title {
+                    font-size: 23px;
+                    font-weight: 600;
+                }
+                .berita__desc {
+                    width: 80%;
+                    color: $desc-gray;
+                }
+                .berita__month {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 70%;
+                    align-items: center;
+                    .berita__date {
+                        color: $desc-gray;
+                    }
+                    // .berita__icon{
+                    //     i{
+
+                    //     }
+                    // }
+                }
+            }
+        }
+
+        .berita__right__all {
+            .berita__right__box {
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+                .berita__right__content {
+                    margin: 0 20px;
+                    .berita__right__date {
+                        margin: 5px 0;
+                        color: $desc-gray;
+                    }
+                    .berita__right__desc {
+                        font-weight: 600;
+
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.galery {
+    margin: 50px 0;
+    .galery__top {
+        .galery__title {
+            font-weight: 600;
+            font-size: 30px;
+            margin-bottom: 40px;
+        }
+    }
+
+    .galery__all {
+        display: flex;
+        flex-wrap: wrap;
+        // align-items: center;
+        .galery__box {
+            margin-bottom: 30px;
+            .galery__image {
+                width: 90%;
+                img {
+                    border-radius: 5px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .galery__bottom {
+        margin-top: 20px;
+        margin-bottom: 60px;
+        text-align: center;
+        .galery__btn {
+            text-decoration: none;
+            padding: 10px 25px;
+            border-radius: 5px;
+            background-color: $blue;
+            color: $white;
+        }
+    }
+}

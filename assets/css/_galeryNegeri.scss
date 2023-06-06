@@ -1,0 +1,65 @@
+.galeryNegeri {
+    background-image: url("../img/header-section/image\ 18.png");
+    height: 45vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .galeryNegeri__text {
+        color: $white;
+        margin: 130px auto 0;
+        text-align: center;
+        .galeryNegeri__title {
+            font-weight: 600;
+            font-size: 30px;
+        }
+        .galeryNegeri__desc {
+            margin-top: 30px;
+        }
+    }
+}
+
+.galery{
+    .galery__all{
+        display: flex;
+        flex-wrap: wrap;
+        .galery__box{
+            display: flex;
+            align-items: end;
+            position: relative;
+            .galery__line{
+                top: 25px;
+                // background-color: $blue;
+                background: rgba(1, 147, 220, 0.8);
+                position: absolute;
+                width: 75%;
+                text-align: end;
+                .galery__desc2{
+                    margin-right: 10px;
+                    color: $white;
+                    font-weight: 600;
+                    font-size: 20px;
+                }
+            }
+            .galery__image{
+                img{
+
+                }
+            }
+            .galery__content{
+                margin-left: 15px;
+                .galery__desc{
+                    width: 75%;
+                    word-spacing: 20px;
+                    line-height: 30px;
+                    color: $desc-gray;
+                    
+                }
+                .galery__lihat{
+                    font-weight: 600;
+                    text-decoration: none;
+                    color: $blue;
+                }
+            }
+        }
+    }
+}

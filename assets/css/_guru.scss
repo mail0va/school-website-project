@@ -1,0 +1,108 @@
+// GURU
+
+.selamat {
+    background-image: url("../img/header-section/image\ 18.png");
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .selamat__top {
+        margin-top: 70px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: space-between;
+        .selamat__text {
+            color: $white;
+            display: flex;
+            .surat__p1 {
+                i {
+                    margin-left: 7px;
+                }
+            }
+            .surat__p2 {
+                margin-left: 40px;
+                i {
+                    margin-left: 7px;
+                }
+            }
+        }
+        .selamat__top__button {
+            .selamat__top__btn {
+                text-decoration: none;
+                border: 1px solid $white;
+                padding: 12px 45px;
+                border-radius: 5px;
+                color: $white;
+                }
+        }
+    }
+
+    .selamat__center
+    {
+        .selamat__desc{
+            margin: 20px auto;
+            width: 40%;
+            color: white;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 40px;
+            text-align: center;
+            letter-spacing: 0.3px;
+        }
+    }
+
+    .selamat__button{
+        margin-top: 40px;
+        .selamat__btn{
+            text-decoration: none;
+            padding: 15px 45px;
+            border-radius: 5px;
+            color: $white;
+            background-color: $blue;
+        }
+    }
+}
+
+
+.informasi{
+    margin: 100px 0;
+    .informasi__content{
+        border-radius: 5px;
+        border: 1px solid $gray;
+        .informasi__name{
+            background-color: $blue;
+            text-align: center;
+            border-radius: 5px;
+            padding: 1px 0;
+            .informasi__p1
+            {
+                font-weight: 600;
+                font-size: 22px;
+                color: $white;
+            }
+        }
+        .informasi__descs{
+            margin: 60px auto;
+            text-align: center;
+            .informasi__p2
+            {
+                line-height: 30px;
+                font-size: 17px;
+                width: 64%;
+                margin: 20px auto;
+            }
+            .informasi__p3
+            {
+                font-size: 17px;
+                margin: 20px auto;
+                width: 64%;
+            }
+            .informasi__p4
+            {
+                font-size: 17px;
+                margin: 5px auto;
+                
+            }
+        }
+    }
+}

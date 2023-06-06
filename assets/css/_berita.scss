@@ -1,0 +1,145 @@
+.berita2 {
+    background-image: url("../img/header-section/image\ 18.png");
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .berita2__text {
+        color: $white;
+        margin: 130px auto 0;
+        text-align: center;
+        .berita2__title {
+            font-weight: 600;
+            font-size: 30px;
+        }
+        .berita2__desc {
+            margin-top: 20px;
+        }
+    }
+}
+
+.beritaBaru {
+    margin: 50px 0;
+    .beritaBaru__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .beritaBaru__left {
+            .beritaBaru__left__title {
+                color: $black;
+                font-weight: 600;
+                font-size: 25px;
+                }
+        }
+        .beritaBaru__right {
+            .beritaBaru__right__title {
+                color: $blue;
+                }
+        }
+    }
+
+    .beritaBaru__all {
+        margin: 30px 0;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        .beritaBaru__box {
+            width: 100%;
+            margin-bottom: 40px;
+            // border: 2px solid red;
+            .berita__image {
+                img {
+                    width: 100%;
+                    }
+            }
+            .beritaBaru__content {
+                margin-top: 20px;
+                .beritaBaru__title {
+                    font-weight: 700;
+                    font-size: 20px;
+                    width: 90%;
+                    margin-bottom: 10px;
+                    }
+                 .beritaBaru__desc{
+                    width: 85%;
+                    .beritaBaru__link{
+                        font-weight: 600;
+                        color: $blue;
+                        text-decoration: none;
+                    }
+                 }
+            }
+        }
+    }
+}
+
+
+.kegiatan{
+    margin: 30px 0;
+    .kegiatan__image{
+        img{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        }
+    }
+
+    .kegiatan__content{
+        // margin-left: 40px;  
+        .kegiatan__title{
+        font-size: 35px;
+            font-weight: 600;
+            width: 70%;
+        }
+        .kegiatan__desc{
+            width: 60%;
+            color: $desc-gray;
+            line-height: 27px;
+        }
+        .kegiatan__button{
+            margin-top: 40px;
+            .kegiatan__btn{
+                text-decoration: none;
+                padding: 12px 45px;
+                background-color:$blue ;
+                color: $white;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+
+.recentPost{
+    .recentPost__title{
+        margin: 30px 0px 40px 0;
+        color: $black;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .posts{
+        margin: 0px 0px 40px 0;
+        // width: 50%;
+        ul{
+            margin: 0;
+            padding: 0;
+            li{
+                padding: 10px 20px;
+                border: 1px solid $blue;
+                // margin: 10px 0px;
+                margin-right: 10px;
+                border-radius: 50px;
+                display: inline;
+                list-style: none;
+                a{
+                    color: $desc-gray;
+                    display: inline;
+                    text-decoration: none;
+                }
+            }
+        }
+        .ulli{
+            margin-bottom: 35px;
+        }
+    }
+}
