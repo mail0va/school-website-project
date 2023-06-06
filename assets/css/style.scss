@@ -905,7 +905,38 @@
 
 
     //jadwal start
+    .jadwal__center{
+        .jadwal__top{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .jadwal__box{
+                text-align: center;
+                width: 100% !important;
+                margin-top: 20px;
 
+                .jadwal__select__one {
+                    outline: none;
+                    width: 100%;
+                    height: 40px;
+                    border: 1px solid #999;
+                    font-size: 17px;
+                    border-radius: 5px;
+                }
+    
+                .jadwal__select__second {
+                    outline: none;
+                    width: 100%;
+                    height: 40px;
+                    border: 1px solid #999;
+                    font-size: 17px;
+                    border-radius: 5px;
+    
+                }
+            }
+
+        }
+    }
     
     //jadwal end
 
@@ -913,7 +944,38 @@
 
 
     //jadwal2 start
+ .jadwal2__center{
+        .jadwal2__top{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .jadwal2__box{
+                text-align: center;
+                width: 100% !important;
+                margin-top: 20px;
+                
+                .jadwal2__select__one {
+                    outline: none;
+                    width: 100%;
+                    height: 40px;
+                    border: 1px solid #999;
+                    font-size: 17px;
+                    border-radius: 5px;
+                }
+    
+                .jadwal2__select__second {
+                    outline: none;
+                    width: 100%;
+                    height: 40px;
+                    border: 1px solid #999;
+                    font-size: 17px;
+                    border-radius: 5px;
+    
+                }
+            }
 
+        }
+    }
     //jadwal2 end
 
 }
@@ -1411,6 +1473,84 @@
     }
 
     // siswa end
+
+
+
+
+
+      //jadwal start
+      .jadwal__center{
+        .jadwal__top{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .jadwal__box{
+                text-align: center;
+                width: 100% !important;
+                margin-top: 20px;
+
+                .jadwal__select__one {
+                    outline: none;
+                    width: 100%;
+                    height: 40px;
+                    border: 1px solid #999;
+                    font-size: 17px;
+                    border-radius: 5px;
+                }
+    
+                .jadwal__select__second {
+                    outline: none;
+                    width: 100%;
+                    height: 40px;
+                    border: 1px solid #999;
+                    font-size: 17px;
+                    border-radius: 5px;
+    
+                }
+            }
+
+        }
+    }
+    
+    //jadwal end
+
+
+
+
+    //jadwal2 start
+ .jadwal2__center{
+        .jadwal2__top{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .jadwal2__box{
+                text-align: center;
+                width: 100% !important;
+                margin-top: 20px;
+                
+                .jadwal2__select__one {
+                    outline: none;
+                    width: 100%;
+                    height: 40px;
+                    border: 1px solid #999;
+                    font-size: 17px;
+                    border-radius: 5px;
+                }
+    
+                .jadwal2__select__second {
+                    outline: none;
+                    width: 100%;
+                    height: 40px;
+                    border: 1px solid #999;
+                    font-size: 17px;
+                    border-radius: 5px;
+    
+                }
+            }
+
+        }
+    }
+    //jadwal2 end
 
 }
 
