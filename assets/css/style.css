@@ -1528,6 +1528,7 @@
   width: 100%;
   padding: 15px 0;
   z-index: 1;
+  background-color: #0C101A;
 }
 .header .nav {
   display: flex;
@@ -1621,9 +1622,12 @@
     display: block;
     position: fixed;
     width: 100%;
+    background-color: #0C101A;
+    z-index: 1;
+    padding: 10px 0;
   }
   .mobile__header .mobile__header__icon i {
-    font-size: 18px;
+    font-size: 20px;
     color: #ffffff;
   }
   .black__header {
@@ -2263,9 +2267,12 @@
     display: block !important;
     position: fixed !important;
     width: 100% !important;
+    background-color: #0C101A;
+    z-index: 1;
+    padding: 10px 0;
   }
   .mobile__header .mobile__header__icon i {
-    font-size: 18px;
+    font-size: 22px;
     color: #ffffff;
   }
   .black__header {

@@ -32,10 +32,24 @@
     width: 100%;
     padding: 15px 0;
     z-index: 1;
+     background-color: $black;
     // .header__logo{
     //     img{
     //     }
     // }
+
+    // .head {
+    //     transition: 0.3s;
+    // }
+    // .head.scrolled {
+    //     background-color: $white !important;
+    //     a {
+    //         color: $black !important;
+    //     }
+    //     transition: background-color 200ms linear;
+    // }
+
+    
     .nav {
         display: flex;
         justify-content: end;
@@ -159,9 +173,12 @@
         display: block;
         position: fixed;
         width: 100%;
+     background-color: $black;
+z-index: 1;
+padding: 10px 0;
         .mobile__header__icon {
             i {
-                font-size: 18px;
+                font-size: 20px;
                 color: $white;
             }
         }
@@ -988,12 +1005,16 @@
         display: block !important;
         position: fixed !important;
         width: 100% !important;
+        background-color: $black;
+        z-index: 1;
+        padding: 10px 0;
         .mobile__header__icon {
             i {
-                font-size: 18px;
+                font-size: 22px;
                 color: $white;
             }
         }
+        
     }
     .black__header {
         display: none;
